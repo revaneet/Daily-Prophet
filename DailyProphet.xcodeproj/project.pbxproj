@@ -15,6 +15,9 @@
 		8581F4B1265AA4D800DF995C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8581F4AF265AA4D800DF995C /* LaunchScreen.storyboard */; };
 		8581F4BC265AA4D900DF995C /* DailyProphetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F4BB265AA4D900DF995C /* DailyProphetTests.swift */; };
 		8581F4C7265AA4D900DF995C /* DailyProphetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581F4C6265AA4D900DF995C /* DailyProphetUITests.swift */; };
+		8581F4D5265AAB9A00DF995C /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8581F4D4265AAB9900DF995C /* harrypotter.mp4 */; };
+		8581F4D6265AAB9A00DF995C /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8581F4D4265AAB9900DF995C /* harrypotter.mp4 */; };
+		8581F4D7265AAB9A00DF995C /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8581F4D4265AAB9900DF995C /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		8581F4C2265AA4D900DF995C /* DailyProphetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyProphetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8581F4C6265AA4D900DF995C /* DailyProphetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProphetUITests.swift; sourceTree = "<group>"; };
 		8581F4C8265AA4D900DF995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8581F4D4265AAB9900DF995C /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = harrypotter.mp4; path = "../../../Desktop/MagicPaper-iOS13-Completed-master/MagicPaper/harrypotter.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				8581F4A4265AA4D300DF995C /* AppDelegate.swift */,
+				8581F4D4265AAB9900DF995C /* harrypotter.mp4 */,
 				8581F4A6265AA4D300DF995C /* art.scnassets */,
 				8581F4A8265AA4D300DF995C /* ViewController.swift */,
 				8581F4AA265AA4D300DF995C /* Main.storyboard */,
@@ -233,6 +238,7 @@
 			files = (
 				8581F4A7265AA4D300DF995C /* art.scnassets in Resources */,
 				8581F4B1265AA4D800DF995C /* LaunchScreen.storyboard in Resources */,
+				8581F4D5265AAB9A00DF995C /* harrypotter.mp4 in Resources */,
 				8581F4AE265AA4D800DF995C /* Assets.xcassets in Resources */,
 				8581F4AC265AA4D300DF995C /* Main.storyboard in Resources */,
 			);
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8581F4D6265AAB9A00DF995C /* harrypotter.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8581F4D7265AAB9A00DF995C /* harrypotter.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +445,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SQTXYR4T44;
+				DEVELOPMENT_TEAM = 77XA244Y68;
 				INFOPLIST_FILE = DailyProphet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,8 +465,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SQTXYR4T44;
+				DEVELOPMENT_TEAM = 77XA244Y68;
 				INFOPLIST_FILE = DailyProphet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
